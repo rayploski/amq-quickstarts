@@ -10,3 +10,19 @@
 *.jar
 
 .settings
+
+*/.vs/**
+
+*/.vs
+
+*.sln
+
+*.suo
+
+*.exe
+
+**/bin/*
+
+**/obj/*
+
+*.csproj

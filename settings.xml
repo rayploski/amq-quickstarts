@@ -15,16 +15,16 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" 
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
-    
+
   <profiles>
     <profile>
       <id>redhat-developers-helloworld-examples</id>
       <repositories>
         <repository>
-          <id>redhat-developer-integration-repository</id>
+          <id>redhat-developers-integration-repository</id>
           <url>https://repo.fusesource.com/nexus/content/groups/public/</url>
           <releases>
             <enabled>true</enabled>
@@ -34,7 +34,7 @@
           </snapshots>
         </repository>
         <repository>
-          <id>jboss-ga-repository</id>
+          <id>redhat-developers-ga-repository</id>
           <url>http://maven.repository.redhat.com/techpreview/all</url>
           <releases>
             <enabled>true</enabled>
@@ -44,7 +44,7 @@
           </snapshots>
         </repository>
         <repository>
-          <id>jboss-earlyaccess-repository</id>
+          <id>redhat-developers-earlyaccess-repository</id>
           <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
           <releases>
             <enabled>true</enabled>
@@ -56,7 +56,7 @@
       </repositories>
       <pluginRepositories>
         <pluginRepository>
-          <id>jboss-earlyaccess-plugin-repository</id>
+          <id>redhat-developers-earlyaccess-plugin-repository</id>
           <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
           <releases>
             <enabled>true</enabled>
@@ -65,7 +65,7 @@
             <enabled>false</enabled>
           </snapshots>
         </pluginRepository>
-      </pluginRepositories>      
+      </pluginRepositories>
     </profile>
   </profiles>
 
